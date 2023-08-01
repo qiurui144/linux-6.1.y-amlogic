@@ -23,6 +23,7 @@
 // (i.e. only two in total) than the one in the other S905X/W
 
 &mali {
+	status = "disabled";
 	interrupts = <GIC_SPI 160 IRQ_TYPE_LEVEL_HIGH>,
 		<GIC_SPI 161 IRQ_TYPE_LEVEL_HIGH>,
 		<GIC_SPI 162 IRQ_TYPE_LEVEL_HIGH>,
